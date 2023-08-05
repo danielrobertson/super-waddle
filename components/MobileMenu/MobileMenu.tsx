@@ -27,10 +27,18 @@ export const MobileMenu = () => {
               </Popover.Close>
             </div>
             <ul className="flex flex-col gap-4 text-gray-700">
-              <Link href="#">Product</Link>
-              <Link href="#">Features</Link>
-              <Link href="#">Marketplace</Link>
-              <Link href="#">Company</Link>
+              <li>
+                <Link href="#">Product</Link>
+              </li>
+              <li>
+                <Link href="#">Features</Link>
+              </li>
+              <li>
+                <Link href="#">Marketplace</Link>
+              </li>
+              <li>
+                <Link href="#">Company</Link>
+              </li>
             </ul>
             <Link
               href="#"

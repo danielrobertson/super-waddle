@@ -14,10 +14,18 @@ export const Header = () => {
       <MobileMenu />
       <div className="hidden md:flex w-full justify-between pl-10">
         <ul className="flex gap-8 items-center">
-          <Link href="#">Product</Link>
-          <Link href="#">Features</Link>
-          <Link href="#">Marketplace</Link>
-          <Link href="#">Company</Link>
+          <li>
+            <Link href="#">Product</Link>
+          </li>
+          <li>
+            <Link href="#">Features</Link>
+          </li>
+          <li>
+            <Link href="#">Marketplace</Link>
+          </li>
+          <li>
+            <Link href="#">Company</Link>
+          </li>
         </ul>
         <div className="flex">
           <Link href="#" className="text-white px-4 py-2 leading-6">
