@@ -3,7 +3,6 @@
 import React, { forwardRef } from "react";
 import { useButton } from "react-aria";
 import type { AriaButtonProps } from "@react-aria/button";
-import { mergeRefs } from "react-merge-refs";
 import classnames from "classnames";
 
 interface ButtonProps extends AriaButtonProps {
@@ -32,11 +31,7 @@ export const Button = forwardRef((props: ButtonProps, forwardRef) => {
   );
 
   return (
-    <button
-      className={classes}
-      {...buttonProps}
-      ref={mergeRefs([ref, forwardRef])}
-    >
+    <button className={classes} {...buttonProps} ref={ref}>
       {children}
     </button>
   );
