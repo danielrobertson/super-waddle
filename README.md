@@ -32,7 +32,7 @@ Run tests with `npm run test`
 
 ### Storybook
 
-A live hosted Storybook is available via a [GitHub Action](.github/workflows/deploy-storybook) that builds and deploys the Storybook app to GitHub Pages: https://github.com/danielrobertson/super-waddle
+A live hosted Storybook is available via a [GitHub Action](.github/workflows/deploy-storybook) that builds and deploys the Storybook app to GitHub Pages: https://danielrobertson.github.io/super-waddle/?path=/docs/button--docs
 
 ## Deployment on Vercel
 
