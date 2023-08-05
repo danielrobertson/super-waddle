@@ -22,7 +22,7 @@ export default async function Home() {
           <EmailSignUp />
         </section>
       </div>
-      <Illustration className="md:flex-1 mt-12 md:mt-8 md:-mr-4" />
+      <Illustration aria-hidden className="md:flex-1 mt-12 md:mt-8 md:-mr-4" />
     </main>
   );
 }

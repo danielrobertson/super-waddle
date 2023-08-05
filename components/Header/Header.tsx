@@ -5,14 +5,13 @@ import Logo from "../icons/Logo.svg";
 import Menu from "../icons/Menu.svg";
 import { IconButton } from "../IconButton";
 import Link from "next/link";
+import { MobileMenu } from "../MobileMenu";
 
 export const Header = () => {
   return (
     <nav className="pt-6 px-4 flex justify-between md:justify-normal">
       <Logo />
-      <IconButton aria-label="Menu" className="md:hidden">
-        <Menu className="not-sr-only" />
-      </IconButton>
+      <MobileMenu />
       <div className="hidden md:flex w-full justify-between pl-10">
         <ul className="flex gap-8 items-center">
           <Link href="#">Product</Link>
