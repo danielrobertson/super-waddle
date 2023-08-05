@@ -1,4 +1,4 @@
-This application is [live on Vercel here!](TODO) 🚀
+This application is [live on Vercel here!](https://super-waddle.vercel.app/) 🚀
 
 ## Getting Started
 
@@ -32,11 +32,11 @@ Run tests with `npm run test`
 
 ### Storybook
 
-A live hosted Storybook is available via a [GitHub Action](.github/workflows/deploy-storybook) that builds and deploys the Storybook app to GitHub Pages: TODO
+A live hosted Storybook is available via a [GitHub Action](.github/workflows/deploy-storybook) that builds and deploys the Storybook app to GitHub Pages: https://github.com/danielrobertson/super-waddle
 
 ## Deployment on Vercel
 
-This application is live on Vercel: TODO
+This application is live on Vercel: https://super-waddle.vercel.app/
 
 ### Web Core Vitals
 
